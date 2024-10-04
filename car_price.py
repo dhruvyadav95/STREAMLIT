@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import datetime 
 import pickle
+import sklearn
 cars_df = pd.read_csv('./car_pred.csv')
 st.write(
     """
