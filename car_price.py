@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import datetime 
+import datetime
 import pickle
 
 cars_df = pd.read_csv('./car_pred.csv')
